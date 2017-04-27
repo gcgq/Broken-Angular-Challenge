@@ -1,0 +1,29 @@
+.background{
+    background-image: url(../images/jonathan-denney-47983.jpg);
+    position:relative;
+    background-size: cover;
+}
+
+.center{
+    color: floralwhite;
+    left: 0;
+    position:absolute;
+    text-align:center;
+    top: 150px;
+    width: 100%
+}
+.redpill{
+    left: 50px;
+    margin-top: 96px;
+    margin-right: 193px
+}
+
+.bluepill{
+    right: 50px;
+    margin-top: 96px;
+    margin-left: 193px
+}
+
+.table{
+    color: white;
+}
