@@ -3,6 +3,6 @@ angular.module("tableDirective", [])
 .directive("tableDirective", function(){
     return{
         restrict:'E',
-        templateUrl:'templates/table.html'
+        templateUrl:'templates/tae.html'
     }
 })

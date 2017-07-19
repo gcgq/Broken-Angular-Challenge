@@ -1,29 +1,37 @@
-.background{
-    background-image: url(../images/jonathan-denney-47983.jpg);
-    position:relative;
+.background {
+    background-image: url(../images/jonathan-denney-4798333.jpg);
+    position: relative;
     background-size: cover;
 }
 
-.center{
-    color: floralwhite;
+.center {
+    color: darkgoldenrod;
     left: 0;
-    position:absolute;
-    text-align:center;
+    position: absolute;
+    text-align: center;
     top: 150px;
-    width: 100%
+    width: 100%;
+    z-index: 1;
 }
-.redpill{
+
+.redpill {
     left: 50px;
     margin-top: 96px;
     margin-right: 193px
 }
 
-.bluepill{
+.bluepill {
     right: 50px;
     margin-top: 96px;
     margin-left: 193px
 }
 
-.table{
+.table {
     color: white;
+}
+
+#map {
+    height: 200px;
+    width: 100%;
+    z-index: 1;
 }
