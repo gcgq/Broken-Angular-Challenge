@@ -1,11 +1,11 @@
-var router = angular.module("router", ['ngRo'])
+var router = angular.module("router", ['ngRoute'])
 
-    .config([, '$locationProvider', function () {
+    router.config([ '$routeProvider', '$locationProvider', function($routeProvider,
+$locationProvider) {
         //$locationProvider.html5Mode(true);
-        when("/", {
+        $routeProvider.when("/", {
             templateUrl: "templates/main.html",
             controller: function () {
-
                 initialize = function () {
                     var uluru = {
                         lat: -25.363,
@@ -23,9 +23,9 @@ var router = angular.module("router", ['ngRo'])
                 }
             }
         }).when("/page1", {
-            templateUrl: "templates/pag1.html"
+            templateUrl: "templates/page1.html"
         }).when("/contact", {
-            templateUrl: "templates/contact.htm",
+            templateUrl: "templates/contact.html",
             controller: function () {}
         });
 }]);

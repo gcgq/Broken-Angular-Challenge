@@ -1,8 +1,8 @@
 angular.module("tableDirective", [])
 
-.directive("tableDirective", function(){
+angular.module("tableDirective").directive("tableDirective", function(){
     return{
         restrict:'E',
-        templateUrl:'templates/tae.html'
+        templateUrl:'templates/table.html'
     }
 })

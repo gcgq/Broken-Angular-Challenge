@@ -29,7 +29,9 @@
 .table {
     color: white;
 }
-
+h1.center {
+  margin-top: 150px;
+}
 #map {
     height: 200px;
     width: 100%;
